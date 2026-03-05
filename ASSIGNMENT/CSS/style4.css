@@ -1,0 +1,26 @@
+#black {
+    background-color: black;
+    height: 150px;
+    position: center;
+}
+.white {
+    background-color: white;
+    height: 30px;
+    width: 300px;
+}
+#red {
+    background-color: rgb(133, 3, 3);
+    height: 150px;
+}
+#green {
+    background-color: rgb(4, 88, 4);
+    height: 150px;
+}
+#shield {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 350px;
+    size-adjust: 100%;

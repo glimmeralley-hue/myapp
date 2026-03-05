@@ -1,0 +1,59 @@
+body {
+    background-color: beige;
+
+    p {
+        color: darkslategray;
+    }
+    /* 1. IDs selectors => It is used to uniquely identify a tag element and style
+it differently from other elements. To use an id as a selector you need to 
+preceed writing the name of the id by use of a hash (#). An id is introduced
+by the use of the id attribute. */
+    #para1 {
+        color: blue;
+        background-color: lightgray;
+        font-size: 26px;
+        padding-bottom: 20px;
+        text-align: center;
+
+    }
+    #para2 {
+        color: green;
+        background-color: lightyellow;
+        font-size: 22px;
+        padding: 15px;
+        text-align: end;
+        text-transform: uppercase;
+        text-decoration: underline;
+
+    }
+    #para3 {
+        color: red;
+        background-color: lightpink;
+        font-size: 20px;
+        padding: 10px;
+        text-align: start;
+        text-decoration: overline;
+        text-transform: inherit;
+
+    }
+    #insidetext {
+        color: purple;
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+    .myparagraph {
+        color: brown;
+        background-color: lightcyan;
+        font-size: 16px;
+        padding: 12px;
+}
+.mygroup {
+    color: darkorchid;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+

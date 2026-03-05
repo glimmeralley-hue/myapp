@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(184, 148, 104);
+
+    h1 {
+        color: rgb(183, 128, 8);
+        font-variant: bold;
+        letter-spacing: 10px;
+        text-align: center;
+        font-size: 40px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 15px;
+        color: aliceblue;
+    }
+    p {
+        background-color: lightgrey;
+        text-align: center;
+        border-top: 6px double rgb(0, 0, 0);
+        border-left: 6px solid rgb(70, 52, 7);
+        border-right: 6px solid rgb(70, 52, 7);
+        border-bottom: 6px double rgb(0, 0, 0);
+        color: rgb(99, 99, 99);
+
+        margin-top: 20px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+
+        padding-top: 20px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+
+        
+
+
+    }
+    a {
+        text-decoration: underline;
+        color: rgb(85, 26, 3);
+        font-size: 20px;
+        background-color: rgb(255, 204, 153);
+        padding: 8px;
+        border-radius: 0px;
+        margin-right: 10px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+    a:hover {
+        background-color: rgb(87, 87, 86);
+        text-decoration: underline;
+    }
