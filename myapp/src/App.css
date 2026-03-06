@@ -37,6 +37,7 @@
 }
 .Thirdcomponent{
   background-color: aqua;
+  padding: 30px;
 }
 .Fourthcomponent{
   background-color: blanchedalmond;
@@ -45,6 +46,14 @@
 .Fifthcomponent{
   background-color: azure;
 }
+
+.Sixthcomponent{
+
+  padding: 40px;
+  color: blue;
+  background-color: rgb(3, 3, 33);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

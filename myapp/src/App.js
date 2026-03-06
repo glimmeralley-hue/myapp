@@ -5,6 +5,7 @@ import Secondcomponent from './components/Secondcomponent';
 import Thirdcomponent from './components/Thirdcomponent';
 import Fourthcomponent from './components/Fourthcomponent';
 import Fifthcomponent from './components/Fifthcomponent';
+import Sixthcomponent from './components/Sixthcomponent';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
        <Thirdcomponent/>
        <Fourthcomponent/>
        <Fifthcomponent/>
+       <Sixthcomponent/>
       
     </div>
   );
@@ -29,3 +31,5 @@ function App() {
 export default App;
 // jsx -
 //create two other components i.e contact us and help components and style them with yourcown content.Render them
+
+//it is our root component
