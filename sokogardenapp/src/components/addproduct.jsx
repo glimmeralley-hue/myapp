@@ -2,7 +2,7 @@ import React from "react";
 
 const Addproducts= () =>{
     return(
-        <div><h1>
+        <div  className="Getproducts"><h1>
             
             welcome to  the add products page</h1></div>
     )
