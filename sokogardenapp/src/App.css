@@ -51,13 +51,67 @@
   border-radius: 50px;
   filter: blur(10px);
 }
+/* product card */
+.product_img {
+  width: 100%;
+  max-width: 220px; /* smaller and compact */
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
 
+.product_img:hover {
+  transform: scale(1.05);
+}
+
+.product_img img {
+  width: 100%;
+  height: 180px; /* uniform height */
+  object-fit: cover;
+}
+
+.product_img .card-body {
+  padding: 10px;
+}
+
+.product_img .text-primary {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.product_img .text-dark {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 8px;
+  line-height: 1.2em;
+  height: 2.4em; /* max 2 lines of description */
+  overflow: hidden;
+}
+
+.product_img .text-warning {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #f0ad4e;
+}
+
+/* spacing and centering cards */
+.row.justify-content-center {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* space between cards */
+  justify-content: center;
+}
 @keyframes spinning82341 {
   to {
     transform: rotate(360deg);
   }
 }
 }
+
 
 @keyframes App-logo-spin {
   from {
