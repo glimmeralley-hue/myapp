@@ -46,10 +46,10 @@ const Signup = () => {
             setEmail("");
             setPassword("");
             setPhone("");
-        } catch (err) {
+        } catch (error) {
             setLoading("");
             // update error hook with message
-            setError(err.message);
+            setError(error.message);
         }
     };
 

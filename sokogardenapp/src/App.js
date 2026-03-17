@@ -2,7 +2,7 @@
 import './App.css'
 import { BrowserRouter as Router,Routes,Route,Link } from 'react-router-dom';
 import Getproducts from './components/Getproducts';
-import Addproducts from './components/addproduct';
+import Addproducts from './components/Addproducts';
 import Signin from './components/signin';
 import Signup from './components/Signup';
 import Notfound from './components/Notfound';
@@ -19,13 +19,14 @@ function App() {
       </header>
 
       <Routes>
-        <Route path='/' element={<Getproducts/>}/>
-        <Route path='/add' element={<Addproducts/>}/>
-         <Route path='/signup' element={<Signup/>}/>
-        <Route path='/signin' element={<Signin/>}/>
-        <Route path='*' element={<Notfound/>}/>
-      </Routes>
-    </div>
+          <Route path='/' element={<Getproducts/>}/>
+          {/* This matches localhost:3000/add */}
+          <Route path='/add' element={<Addproducts/>}/> 
+          <Route path='/signup' element={<Signup/>}/>
+          <Route path='/signin' element={<Signin/>}/>
+          <Route path='*' element={<Notfound/>}/>
+        </Routes>
+      </div>
     </Router>
    
   );
